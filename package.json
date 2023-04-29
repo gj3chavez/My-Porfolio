@@ -1,0 +1,58 @@
+{
+  "description": "My Portfolio Website",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Giuliana C.",
+  "homepage": "https://github.com/gj3chavez/My-Portfolio",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fortawesome/react-fontawesome": "",
+    "@fortawesome/free-brands-svg-icons": "6.4.0",
+    "react": "^17.0.1",
+    "react-icons": "4.8.0",
+    "react-dom": "^17.0.1",
+    "react-scripts": "5.0.1",
+    "typewriter-effect": "2.19.0",
+    "web-vitals": "^0.2.4",
+    "react-bootstrap": "^2.0.0-beta.6",
+    "react-awesome-reveal": "4.2.3",
+    "react-pd-components": "1.0.2",
+    "react-router-dom": "^6.0.0-beta.0",
+    "animate.css": "4.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "8.0.0",
+    "gh-pages": "5.0.0"
+  }
+}
